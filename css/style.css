@@ -6,6 +6,18 @@ h1 {
     text-shadow: -1px -2px # 999;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+h2 {
+    color: rgb(200, 200, 2200);
+    text-shadow: -1px -2px # 999;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    color: rgb(150, 150, 150);
+    text-shadow: -1px -2px # 999;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 p {
     color: green;
     text-align: justify;
