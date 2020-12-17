@@ -1,4 +1,14 @@
 body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.0rem; 
+    line-height: 1.4em; 
+    color: #333;	
+    background-color: #efefef;
     background-image: url(https://i.ytimg.com/vi/n2KH2GH7xt0/maxresdefault.jpg);
 }
 h1 {
@@ -7,18 +17,50 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 p {
-    color: green;
+    color: #ffffff;
     text-align: justify;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-form {
-    
-    color: green;
-    text-align: justify;
+header h2 {
+   color: #ffffff; 
 }
-input {
-    margin: 10px;
+main h3 {
+    color: #ffffff; 
 }
+
+
+ /* Para teléfonos móviles: */ 
+ [class*="col-"] 
+ { width: 98%; text-align: center;} 
+ @media only screen and (min-width: 600px) { 
+     /* Para tabletas: */ 
+     .col-s-1 {width: 4.33%;} 
+     .col-s-2 {width: 8.66%;} 
+     .col-s-3 {width: 13%;} 
+     .col-s-4 {width: 17%;} 
+     .col-s-5 {width: 22%;} 
+     .col-s-6 {width: 50%; float:left; text-align: left;} 
+     .col-s-7 {width: 98%; float:left; text-align: left;} 
+     .col-s-8 {width: 33%;} 
+     .col-s-9 {width: 75%;} 
+     .col-s-10 {width: 83.33%;} 
+     .col-s-11 {width: 100%;} 
+     .col-s-12 {width: 100%; text-align: left;} } 
+     @media only screen and (min-width: 1000px) { 
+         /* Para equipos de escritorio: */ 
+         .col-1 {width: 8.33%;} 
+         .col-2 {width: 16.66%;} 
+         .col-3 {width: 25%;} 
+         .col-4 {width: 33.33%;} 
+         .col-5 {width: 41.66%;} 
+         .col-6 {width: 30%; float:left; text-align: left;} 
+         .col-7 {width: 30%; float:left; } 
+         .col-8 {width: 100%; clear: both;} 
+         .col-9 {width: 75%;} 
+         .col-10 {width: 83.33%;} 
+         .col-11 {width: 60%;} 
+         .col-12 {width: 100%; text-align: left;} }
+
 
 
  /* Para teléfonos móviles: */ 
